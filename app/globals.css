@@ -19,3 +19,66 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://cdn2.unrealengine.com/mkart-fnbr-fortnitemares2024-lobby-final-4096x2048-d17d51ae76a0.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.online {
+  border: 2px solid #00ff00;
+}
+
+.disabled {
+  border: 2px solid red;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.status {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.status.green {
+  color: #00ff00;
+}
+
+.status.red {
+  color: red;
+}
+
+.info {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.label {
+  font-weight: bold;
+}
